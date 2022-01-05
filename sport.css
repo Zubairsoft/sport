@@ -1,0 +1,56 @@
+body{
+	background-color: white ;
+	text-decoration: rtl;
+	padding: 0;
+	margin: 0;
+}/* header */
+header{
+	height: 2%;
+	background-color: green;
+	color:white ;
+	padding: 10px ; 
+	box-shadow:inset 4px 4px 2px black,
+	inset -1px -1px 1px black;
+	 direction: rtl;
+}
+nav{
+
+	padding: 10px;
+	min-width:500px; 
+}
+nav ul {
+
+	background-color: green;
+}
+nav ul li {
+	display: inline-block;
+ font-weight: bold;
+ direction: rtl;
+ padding: 10px;
+ font-size: 20pt;
+  font-family: "Poppins", Arial,sans-serif;
+}
+nav ul li a{
+	padding : 10px;
+	color:white;
+	font-size: 34pt;
+  font-family: "Poppins", Arial,sans-serif;
+  text-decoration:underline;
+  display: block;
+  font-weight: bold;
+  
+}
+a:link{
+text-decoration: none;
+color: white;
+}
+
+ a:hover{
+	color: white;
+	text-decoration: underline;
+outline: none;
+border: none;
+}
+a:visited{
+	color: white;
+}
